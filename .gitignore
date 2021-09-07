@@ -1,16 +1,12 @@
-# Compiled class file
+#CONFIG
+**/src/main/resources/**/application-local.yml
+**/src/main/resources/**/application-test.yml
+
+#COMPILE AND PACKAGE FILES
+target
+build
+out
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.nar
@@ -19,5 +15,25 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+#LOGGING
+logs
+*.log
+
+#INTELLIJ
+**/.idea
+*.iml
+
+#ECLIPSE
+.settings
+.project
+.classpath
+
+#GRADLE
+.gradle/
+#gradle
+#build.gradle
+#gradlew
+#gradlew.bat
+#settings.gradle
+
+
